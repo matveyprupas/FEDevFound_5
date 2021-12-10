@@ -11,3 +11,11 @@ My realization in branch hw1
 Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31841d4e1012-0002-9e7e-5f65-56d3fb0f2e14/Functions,%20Context,%20this.pdf
 
 My realization in branch hw2
+
+### HW3 
+
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31841d4e1012-0002-9e7e-5f65-56d3fb0f2e14/Functions,%20Context,%20this.pdf
+
+My realization in branch hw3
+
+
