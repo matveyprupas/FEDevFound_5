@@ -18,4 +18,8 @@ Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31841d4e1012-0002
 
 My realization in branch hw3
 
+### HW4
 
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/318431993fe3-623b-5437-3e49-1f3ccd111cb5/Prototypes,%20Inheritance.pdf
+
+My realization in branch hw4
