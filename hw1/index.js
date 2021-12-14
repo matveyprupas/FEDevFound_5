@@ -3,7 +3,7 @@ function runningAverage() {
     let average = 0;
     return function (arg) {
         arr.push(arg);
-        average = (arr.reduce( (sum, e) => sum + e)) / arr.length;
+        average = (average * (arr.length - 1) + arr[arr.length - 1]) / arr.length;
         console.log(average);
     }
 }
