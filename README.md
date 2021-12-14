@@ -2,7 +2,7 @@
 
 ### HW1 
 
-Task assignment https://learn.epam.com/myLearning/program?groupGuid=c1a78a43-680c-42a1-8580-ea01bb4f9445
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/318459c0b61e-edc9-1d99-e518-4606666a0fdd/Scope,%20Hoisting,%20Closures.pdf
 
 My realization in branch hw1
 
