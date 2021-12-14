@@ -23,3 +23,9 @@ My realization in branch hw3
 Task assignment https://epam.sharepoint.com/sites/LMSO/Program/318431993fe3-623b-5437-3e49-1f3ccd111cb5/Prototypes,%20Inheritance.pdf
 
 My realization in branch hw4
+
+### HW5
+
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31849a106342-7d53-03bb-e38a-4a1fd9516cd0/Async%20Javascript.pdf
+
+My realization in branches async_task1 and async_task2
