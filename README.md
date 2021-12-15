@@ -2,7 +2,7 @@
 
 ### HW1 
 
-Task assignment https://learn.epam.com/myLearning/program?groupGuid=c1a78a43-680c-42a1-8580-ea01bb4f9445
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/318459c0b61e-edc9-1d99-e518-4606666a0fdd/Scope,%20Hoisting,%20Closures.pdf
 
 My realization in branch hw1
 
@@ -29,3 +29,9 @@ My realization in branch hw4
 Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31849a106342-7d53-03bb-e38a-4a1fd9516cd0/Async%20Javascript.pdf
 
 My realization in branches async_task1 and async_task2
+
+### HW6
+
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31844a358dfa-a95d-7131-2366-1445727af5f6/DOM%20Events.pdf
+
+My realization in branches events_task1 and events_task2
