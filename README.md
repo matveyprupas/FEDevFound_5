@@ -35,3 +35,9 @@ My realization in branches async_task1 and async_task2
 Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31844a358dfa-a95d-7131-2366-1445727af5f6/DOM%20Events.pdf
 
 My realization in branches events_task1 and events_task2
+
+### HW7
+
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31849cdc1c07-cd93-67be-b3cf-d3f728e3cbea/Handling%20errors,%20Debuging.pdf
+
+My realization in branches error and debugging
