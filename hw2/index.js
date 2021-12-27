@@ -1,8 +1,8 @@
 function NamedOne (firstName, lastName) {
 
-    let res = {
+    const res = {
 
-        firstName: lastName,
+        firstName: firstName,
         lastName: lastName,
 
         get fullName() {
@@ -13,7 +13,7 @@ function NamedOne (firstName, lastName) {
             let nameArr = val.split(' ');
 
             if (nameArr.length !== 2) {
-                return (console.log(`Your name isn't correct`));
+                return (console.log(`"${val}" isn't correct name`));
             } else {
                 this.firstName = nameArr[0];
                 this.lastName = nameArr[1];
