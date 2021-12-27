@@ -1,9 +1,12 @@
 function runningAverage() {
-    let arr = [];
+    let sum = 0;
+    let countRuns = 0;
     let average = 0;
+    
     return function (arg) {
-        arr.push(arg);
-        average = (average * (arr.length - 1) + arr[arr.length - 1]) / arr.length;
+        sum += arg;
+        countRuns++;
+        average = sum / countRuns;
         console.log(average);
     }
 }
