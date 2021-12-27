@@ -2,35 +2,35 @@ class Vector {
     constructor(arr) {
         this.coordinates = arr;
     }
+
+    add(vector) {
+        if (this.coordinates.length !== vector.coordinates.length) 
+            throw new Error("Oops, lengthes of vectors don't equivalent");
+    
+        let newVectorArr = this.coordinates.map( (el, i) => el + vector.coordinates[i] );
+        return new Vector(newVectorArr);
+    }
+
+    subtract(vector) {
+        if (this.coordinates.length !== vector.coordinates.length) 
+            throw new Error("Oops, lengthes of vectors don't equivalent");
+
+        let newVectorArr = this.coordinates.map( (el, i) => el - vector.coordinates[i] );
+        return new Vector(newVectorArr);
+    };
+
+    dot(vector) {
+        if (this.coordinates.length !== vector.coordinates.length) 
+            throw new Error("Oops, lengthes of vectors don't equivalent");
+
+        return this.coordinates.reduce( (sum, el, i) => sum + el * vector.coordinates[i], 0 );
+    };
+
+    norm() {
+        let res = this.coordinates.reduce( (sum, el) => sum + Math.pow(el, 2), 0 );
+        return Math.sqrt(res);
+    };
 }
-
-Vector.prototype.add = function(vector) {
-    if (this.coordinates.length !== vector.coordinates.length) 
-        throw new Error("Oops, lengthes of vectors don't equivalent");
-
-    let newVectorArr = this.coordinates.map( (el, i) => el + vector.coordinates[i] );
-    return new Vector(newVectorArr);
-};
-
-Vector.prototype.subtract = function(vector) {
-    if (this.coordinates.length !== vector.coordinates.length) 
-        throw new Error("Oops, lengthes of vectors don't equivalent");
-
-    let newVectorArr = this.coordinates.map( (el, i) => el - vector.coordinates[i] );
-    return new Vector(newVectorArr);
-};
-
-Vector.prototype.dot = function(vector) {
-    if (this.coordinates.length !== vector.coordinates.length) 
-        throw new Error("Oops, lengthes of vectors don't equivalent");
-
-    return this.coordinates.reduce( (sum, el, i) => sum + el * vector.coordinates[i], 0 );
-};
-
-Vector.prototype.norm = function() {
-    let res = this.coordinates.reduce( (sum, el) => sum + Math.pow(el, 2), 0 );
-    return Math.sqrt(res);
-};
 
 let a = new Vector([1,2,3]);
 let b = new Vector([3,4,5]);
