@@ -1,8 +1,5 @@
 function NamedOne (firstName, lastName) {
 
-    // this.lastName = lastName;
-    // this.fullName = `${this.firstName} ${this.lastName}`;
-
     let res = {
 
         firstName: lastName,
