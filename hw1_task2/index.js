@@ -1,10 +1,14 @@
 function sum(...args) {
 
-    let sum = args.reduce( (sum, e) => sum + e );
+    let sum = getSum(args);
+
+    function getSum(arr) {
+      return arr.reduce( (sum, e) => sum + e )
+    }
   
     function f(...args) {
-        sum += args.reduce( (sum, e) => sum + e );
-      return f;
+        sum += getSum( args );
+        return f;
     }
   
     f.valueOf = function() {
@@ -18,4 +22,5 @@ function sum(...args) {
 console.log( sum(2,3) );		//	Outputs	5
 console.log( +sum(2,3) );		//	Outputs	5
 console.log( +sum(2)(3) );	//	Outputs	5
+console.log( +sum(2)(3, 5) );	//	Outputs	10
 console.log( +sum(1)(2)(3)(4));	//	Outputs	10
