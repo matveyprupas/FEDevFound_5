@@ -2,8 +2,8 @@ function NamedOne (firstName, lastName) {
 
     const res = {
 
-        firstName: firstName,
-        lastName: lastName,
+        firstName,
+        lastName,
 
         get fullName() {
             return `${this.firstName} ${this.lastName}`;
