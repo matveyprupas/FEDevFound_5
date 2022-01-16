@@ -41,3 +41,9 @@ My realization in branches events_task1 and events_task2
 Task assignment https://epam.sharepoint.com/sites/LMSO/Program/31849cdc1c07-cd93-67be-b3cf-d3f728e3cbea/Handling%20errors,%20Debuging.pdf
 
 My realization in branches error and debugging
+
+### HW8
+
+Task assignment https://epam.sharepoint.com/sites/LMSO/Program/3184174dc845-ae9f-74fa-196e-d96efd782e58/Typescript%20Features.pdf
+
+My realization in branches ts
