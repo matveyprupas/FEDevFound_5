@@ -47,3 +47,9 @@ My realization in branches error and debugging
 Task assignment https://epam.sharepoint.com/sites/LMSO/Program/3184174dc845-ae9f-74fa-196e-d96efd782e58/Typescript%20Features.pdf
 
 My realization in branches ts
+
+### HW9
+
+Task assignment https://learn.epam.com/myLearning/program?groupGuid=c1a78a43-680c-42a1-8580-ea01bb4f9445
+
+My realization in branches oop
