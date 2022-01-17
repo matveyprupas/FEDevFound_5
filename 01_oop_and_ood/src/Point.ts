@@ -30,12 +30,12 @@ export class Point implements IPoint {
     distance(point: Point): number;
     distance(xOrPoint?: Point | number, y?: number): number {
         if (xOrPoint && typeof xOrPoint === 'number') {
-            return Math.sqrt( (this.x - xOrPoint) ** 2 + (this.y - y) ** 2 );
+            return +(Math.sqrt( (this.x - xOrPoint) ** 2 + (this.y - y) ** 2 )).toFixed(1);
         } else if (xOrPoint instanceof Point) {
             let coordinates = xOrPoint.getCoordinates();
-            return Math.sqrt( (this.x - coordinates.x) ** 2 + (this.y - coordinates.y) ** 2 );
+            return +(Math.sqrt( (this.x - coordinates.x) ** 2 + (this.y - coordinates.y) ** 2 )).toFixed(1);
         } else {
-            return Math.sqrt( this.x ** 2 + this.y ** 2 );
+            return +(Math.sqrt( this.x ** 2 + this.y ** 2 )).toFixed(1);
         }
     }
 }
