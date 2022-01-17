@@ -24,12 +24,11 @@ export abstract class Shape {
 
     getPerimeter(): number {
         let sum: number = 0;
+    // [new Point(0, 0), new Point(0, 3), new Point(4, 3), new Point(4, 0)];
 
         for ( let i = 0; i < this.points.length; i++) {
             if (i === 0) {
-                sum += this.points[i+2].distance(this.points[i+1]); 
-            } else if (i === this.points.length - 1) {
-                sum += this.points[i].distance(this.points[0]);
+                sum += this.points[i].distance(this.points[this.points.length - 1]); 
             } else {
                 sum += this.points[i].distance(this.points[i-1]);
             }
