@@ -16,8 +16,8 @@ console.log( jack.introduce() ); //	My name is Jack and I am 40
 
 console.log( "----------------------------" );
 
-function myNew (className, ...args) {
-    let myPerson = new className(args[0], args[1]);
+function myNew (classConstructor, ...args) {
+    let myPerson = new classConstructor(...args);
     return myPerson;
 }
 
