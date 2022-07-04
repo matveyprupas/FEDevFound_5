@@ -9,11 +9,11 @@ export abstract class Shape {
     points: Array<Point>;
 
     constructor (points: Array<Point>);
-    constructor (points: Array<Point>, color: string, filled: boolean);
+    constructor (points: Array<Point>, color: string | undefined, filled: boolean | undefined);
     constructor (points: Array<Point>, color?: string, filled?: boolean) {
         if (points.length <= 2) throw "We need 3 and more points.";
         this.points = points;
-        this.color = color ? color : 'green';
+        this.color = !!color ? color : 'green';
         this.filled = filled !== undefined ? filled : true;
     }
 

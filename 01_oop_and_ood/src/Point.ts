@@ -29,7 +29,7 @@ export class Point implements IPoint {
     distance(x: number, y: number): number;
     distance(point: Point): number;
     distance(xOrPoint?: Point | number, y?: number): number {
-        if (xOrPoint && typeof xOrPoint === 'number') {
+        if (xOrPoint && typeof xOrPoint === 'number' && !!y) {
             return +(Math.sqrt( (this.x - xOrPoint) ** 2 + (this.y - y) ** 2 )).toFixed(1);
         } else if (xOrPoint instanceof Point) {
             let coordinates = xOrPoint.getCoordinates();
