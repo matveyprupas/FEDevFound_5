@@ -1,4 +1,6 @@
-// Create the inventory
+import { Inventory } from "./code/src/Inventory";
+import { Item } from "./code/src/Item";
+
 const inventory: Inventory = new Inventory();
 
 // Create a set of items
